@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.root{
+    margin: 50px;
+    padding: 20px;
+    background-color: goldenrod;
+    border: 2px solid darkgoldenrod;
+    border-radius: 10px;
+    display: inline-flex;
+    box-shadow: 10px 10px 20px gold;
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+
+}
+.container-text{
+    display: flex;
+    flex-direction: row;
+}
+
+.container-text>p:first-child {
+    width: 100px;
+    font-weight: bold;
+}
